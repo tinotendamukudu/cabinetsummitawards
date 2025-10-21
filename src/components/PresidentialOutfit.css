@@ -1,0 +1,164 @@
+.presidential-outfit {
+  background: var(--light-bg);
+}
+
+.outfit-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.outfit-image {
+  position: relative;
+}
+
+.image-placeholder {
+  background: var(--cream-bg);
+  border-radius: 20px;
+  padding: 4rem 2rem;
+  text-align: center;
+  border: 2px dashed rgba(212, 175, 55, 0.4);
+  position: relative;
+  overflow: hidden;
+}
+
+.image-placeholder::before {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(45deg, transparent, rgba(212, 175, 55, 0.1), transparent);
+  animation: shimmer 3s infinite;
+}
+
+.crown-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 2.5rem;
+  color: var(--primary-gold);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.outfit-icon {
+  font-size: 8rem;
+  margin: 2rem 0;
+  filter: drop-shadow(0 10px 30px rgba(212, 175, 55, 0.3));
+}
+
+.image-placeholder p {
+  color: var(--primary-gold);
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: 'Playfair Display', serif;
+}
+
+.outfit-info {
+  animation: fadeInUp 0.8s ease-out;
+}
+
+.outfit-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(212, 175, 55, 0.1);
+  border: 1px solid var(--primary-gold);
+  color: var(--primary-gold);
+  padding: 8px 20px;
+  border-radius: 25px;
+  margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+}
+
+.outfit-info h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, var(--primary-gold), var(--deep-gold));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.outfit-tagline {
+  font-size: 1.3rem;
+  color: var(--text-gray);
+  font-style: italic;
+  margin-bottom: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+
+.outfit-features {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.feature {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+.feature svg {
+  font-size: 2rem;
+  color: var(--primary-gold);
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+
+.feature h4 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-dark);
+}
+
+.feature p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.outfit-description {
+  background: var(--cream-bg);
+  padding: 1.5rem;
+  border-radius: 15px;
+  border-left: 4px solid var(--primary-gold);
+  margin-bottom: 2rem;
+}
+
+.outfit-description p {
+  color: var(--text-muted);
+  line-height: 1.8;
+}
+
+.outfit-btn {
+  font-size: 1.1rem;
+  padding: 15px 40px;
+}
+
+.booking-note {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(212, 175, 55, 0.1);
+  border-radius: 10px;
+  border-left: 3px solid var(--primary-gold);
+}
+
+.booking-note p {
+  color: var(--primary-gold);
+  margin: 0;
+}
+
+@media (max-width: 968px) {
+  .outfit-content {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .outfit-info h2 {
+    font-size: 2.5rem;
+  }
+}

@@ -1,0 +1,75 @@
+.african-flags {
+  background: var(--dark-secondary);
+}
+
+.flags-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.flag-card {
+  background: var(--dark-bg);
+  padding: 1.5rem;
+  border-radius: 15px;
+  text-align: center;
+  border: 1px solid rgba(212, 175, 55, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease-out backwards;
+}
+
+.flag-card:hover {
+  transform: translateY(-5px) scale(1.05);
+  border-color: var(--primary-gold);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+}
+
+.flag-emoji {
+  font-size: 3.5rem;
+  margin-bottom: 0.8rem;
+  transition: transform 0.3s ease;
+}
+
+.flag-card:hover .flag-emoji {
+  transform: scale(1.2);
+}
+
+.flag-name {
+  color: var(--text-gray);
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.flag-card:hover .flag-name {
+  color: var(--primary-gold);
+}
+
+.flags-cta {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.flags-cta p {
+  color: var(--text-gray);
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .flags-grid {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 1rem;
+  }
+
+  .flag-emoji {
+    font-size: 2.5rem;
+  }
+
+  .flag-name {
+    font-size: 0.8rem;
+  }
+}
