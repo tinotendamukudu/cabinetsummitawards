@@ -8,6 +8,11 @@ section {
   position: relative;
 }
 
+/* Hero section stays dark */
+#hero {
+  background: var(--dark-bg) !important;
+}
+
 /* Alternate light sections by default */
 section:nth-of-type(odd) {
   background: var(--light-bg);

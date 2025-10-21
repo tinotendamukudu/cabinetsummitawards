@@ -6,7 +6,7 @@
   justify-content: center;
   overflow: hidden;
   padding-top: 80px;
-  background: var(--dark-bg);
+  background: var(--dark-bg) !important;
   color: var(--text-light);
 }
 
