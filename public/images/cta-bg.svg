@@ -1,0 +1,131 @@
+<svg width="1920" height="800" viewBox="0 0 1920 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0a0a0a;stop-opacity:1" />
+    </linearGradient>
+    
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#D4AF37;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#D4AF37;stop-opacity:0" />
+    </radialGradient>
+    
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFD700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4AF37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B8860B;stop-opacity:1" />
+    </linearGradient>
+    
+    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
+      <path d="M 50 0 L 0 0 0 50" fill="none" stroke="rgba(212,175,55,0.1)" stroke-width="1"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1920" height="800" fill="url(#bgGradient)"/>
+  
+  <!-- Grid pattern -->
+  <rect width="1920" height="800" fill="url(#grid)"/>
+  
+  <!-- Gold glows -->
+  <circle cx="200" cy="200" r="300" fill="url(#goldGlow)"/>
+  <circle cx="1720" cy="600" r="300" fill="url(#goldGlow)"/>
+  
+  <!-- Africa continent silhouette (centered) -->
+  <g transform="translate(760, 150) scale(1.2)">
+    <path d="M 200 50 L 220 70 L 240 65 L 255 75 L 265 70 L 280 85 L 290 95 L 295 110 L 300 130 L 305 155 L 310 180 L 312 200 L 310 220 L 305 240 L 298 260 L 290 275 L 278 290 L 265 300 L 248 308 L 230 312 L 210 310 L 190 305 L 170 298 L 152 288 L 138 275 L 128 260 L 122 242 L 118 222 L 115 200 L 113 178 L 112 158 L 115 138 L 120 120 L 128 105 L 138 92 L 150 82 L 165 72 L 180 65 L 195 58 Z" 
+          fill="none" 
+          stroke="url(#goldGradient)" 
+          stroke-width="3" 
+          opacity="0.6"/>
+    <path d="M 200 50 L 220 70 L 240 65 L 255 75 L 265 70 L 280 85 L 290 95 L 295 110 L 300 130 L 305 155 L 310 180 L 312 200 L 310 220 L 305 240 L 298 260 L 290 275 L 278 290 L 265 300 L 248 308 L 230 312 L 210 310 L 190 305 L 170 298 L 152 288 L 138 275 L 128 260 L 122 242 L 118 222 L 115 200 L 113 178 L 112 158 L 115 138 L 120 120 L 128 105 L 138 92 L 150 82 L 165 72 L 180 65 L 195 58 Z" 
+          fill="url(#goldGradient)" 
+          opacity="0.15"/>
+  </g>
+  
+  <!-- Decorative circles (left side) -->
+  <circle cx="150" cy="400" r="120" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="2"/>
+  <circle cx="150" cy="400" r="140" fill="none" stroke="rgba(212,175,55,0.15)" stroke-width="1.5"/>
+  <circle cx="150" cy="400" r="160" fill="none" stroke="rgba(212,175,55,0.1)" stroke-width="1"/>
+  
+  <!-- Decorative circles (right side) -->
+  <circle cx="1770" cy="400" r="120" fill="none" stroke="rgba(212,175,55,0.2)" stroke-width="2"/>
+  <circle cx="1770" cy="400" r="140" fill="none" stroke="rgba(212,175,55,0.15)" stroke-width="1.5"/>
+  <circle cx="1770" cy="400" r="160" fill="none" stroke="rgba(212,175,55,0.1)" stroke-width="1"/>
+  
+  <!-- Award trophy icons -->
+  <g transform="translate(100, 100)" opacity="0.3">
+    <path d="M 20 50 L 10 20 L 0 10 L 5 5 L 15 0 L 25 0 L 35 5 L 40 10 L 30 20 L 20 50 Z" fill="url(#goldGradient)"/>
+    <rect x="15" y="50" width="10" height="15" fill="url(#goldGradient)"/>
+    <rect x="10" y="65" width="20" height="5" fill="url(#goldGradient)"/>
+  </g>
+  
+  <g transform="translate(1780, 100)" opacity="0.3">
+    <path d="M 20 50 L 10 20 L 0 10 L 5 5 L 15 0 L 25 0 L 35 5 L 40 10 L 30 20 L 20 50 Z" fill="url(#goldGradient)"/>
+    <rect x="15" y="50" width="10" height="15" fill="url(#goldGradient)"/>
+    <rect x="10" y="65" width="20" height="5" fill="url(#goldGradient)"/>
+  </g>
+  
+  <!-- Stars scattered -->
+  <circle cx="300" cy="150" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="450" cy="100" r="2" fill="#FFD700" opacity="0.5"/>
+  <circle cx="600" cy="120" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="1320" cy="100" r="2" fill="#FFD700" opacity="0.5"/>
+  <circle cx="1470" cy="120" r="3" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="1620" cy="150" r="2.5" fill="#FFD700" opacity="0.5"/>
+  
+  <circle cx="250" cy="650" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="400" cy="700" r="2" fill="#FFD700" opacity="0.5"/>
+  <circle cx="1520" cy="700" r="2.5" fill="#D4AF37" opacity="0.6"/>
+  <circle cx="1670" cy="650" r="2" fill="#FFD700" opacity="0.5"/>
+  
+  <!-- Leadership symbols - abstract connected nodes -->
+  <g opacity="0.25">
+    <!-- Left network -->
+    <circle cx="250" cy="300" r="8" fill="#D4AF37"/>
+    <circle cx="300" cy="280" r="6" fill="#D4AF37"/>
+    <circle cx="280" cy="340" r="7" fill="#D4AF37"/>
+    <circle cx="320" cy="330" r="5" fill="#D4AF37"/>
+    <line x1="250" y1="300" x2="300" y2="280" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="250" y1="300" x2="280" y2="340" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="300" y1="280" x2="320" y2="330" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="280" y1="340" x2="320" y2="330" stroke="#D4AF37" stroke-width="1.5"/>
+    
+    <!-- Right network -->
+    <circle cx="1670" cy="300" r="8" fill="#D4AF37"/>
+    <circle cx="1620" cy="280" r="6" fill="#D4AF37"/>
+    <circle cx="1640" cy="340" r="7" fill="#D4AF37"/>
+    <circle cx="1600" cy="330" r="5" fill="#D4AF37"/>
+    <line x1="1670" y1="300" x2="1620" y2="280" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="1670" y1="300" x2="1640" y2="340" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="1620" y1="280" x2="1600" y2="330" stroke="#D4AF37" stroke-width="1.5"/>
+    <line x1="1640" y1="340" x2="1600" y2="330" stroke="#D4AF37" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Geometric accent shapes -->
+  <g opacity="0.15">
+    <!-- Diamond shapes -->
+    <path d="M 400 500 L 420 520 L 400 540 L 380 520 Z" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    <path d="M 1520 500 L 1540 520 L 1520 540 L 1500 520 Z" fill="none" stroke="#D4AF37" stroke-width="2"/>
+    
+    <!-- Hexagons -->
+    <path d="M 500 600 L 515 590 L 530 600 L 530 620 L 515 630 L 500 620 Z" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+    <path d="M 1420 600 L 1435 590 L 1450 600 L 1450 620 L 1435 630 L 1420 620 Z" fill="none" stroke="#FFD700" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Subtle light rays from center -->
+  <g opacity="0.08">
+    <line x1="960" y1="400" x2="200" y2="100" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="960" y1="400" x2="1720" y2="100" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="960" y1="400" x2="200" y2="700" stroke="#D4AF37" stroke-width="1"/>
+    <line x1="960" y1="400" x2="1720" y2="700" stroke="#D4AF37" stroke-width="1"/>
+  </g>
+  
+  <!-- Excellence ribbons (abstract) -->
+  <g opacity="0.2">
+    <path d="M 150 550 Q 200 530 250 550 T 350 550" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+    <path d="M 1570 550 Q 1620 530 1670 550 T 1770 550" fill="none" stroke="url(#goldGradient)" stroke-width="3"/>
+  </g>
+</svg>

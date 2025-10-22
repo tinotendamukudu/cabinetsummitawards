@@ -23,8 +23,9 @@
 
 .flag-card:hover {
   transform: translateY(-5px) scale(1.05);
+  background: var(--dark-bg);
   border-color: var(--primary-gold);
-  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.2);
+  box-shadow: 0 8px 25px rgba(212, 175, 55, 0.4);
 }
 
 .flag-emoji {

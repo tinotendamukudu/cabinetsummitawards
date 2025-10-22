@@ -3,7 +3,6 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
 import WhatWeOffer from './components/WhatWeOffer'
-import AfricanFlags from './components/AfricanFlags'
 import AwardsCategories from './components/AwardsCategories'
 import PastWinners from './components/PastWinners'
 import PresidentialOutfit from './components/PresidentialOutfit'
@@ -19,7 +18,6 @@ function App() {
       <Hero />
       <About />
       <WhatWeOffer />
-      <AfricanFlags />
       <AwardsCategories />
       <PastWinners />
       <PresidentialOutfit />

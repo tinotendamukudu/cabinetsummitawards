@@ -6,57 +6,90 @@ const About = () => {
   return (
     <section id="about" className="about">
       <div className="container">
-        <h2 className="section-title">About Us</h2>
-        <p className="section-subtitle">
-          Honoring the visionaries shaping Africa's future
-        </p>
+        <div className="about-badge">Get To Know About Us</div>
+        
+        <div className="about-layout">
+          <div className="about-left">
+            <h2 className="about-title">
+              We Are Here to Celebrate African Excellence
+            </h2>
+            
+            <p className="about-description">
+              The Honourable Cabinet Summit Awards recognizes outstanding achievements and 
+              contributions by African high profiles across politics, business, arts, sports, 
+              and innovation, inspiring the next generation of leaders.
+            </p>
 
-        <div className="about-content">
-          <div className="about-main">
-            <p className="about-text">
-              The <strong>Honourable Cabinet Summit Awards</strong> is a prestigious recognition 
-              of outstanding achievements and contributions by African high profiles in various fields, 
-              including politics, business, arts, sports, and more.
-            </p>
-            <p className="about-text">
-              Our mission is to honor and celebrate African leaders who have made significant impacts 
-              on the continent and beyond. We believe in recognizing excellence, promoting African 
-              values, and inspiring the next generation of leaders across all 54 African nations.
-            </p>
+            <div className="about-stats-grid">
+              <div className="stat-box">
+                <h3 className="stat-number">500+</h3>
+                <p className="stat-label">Nominated Leaders</p>
+                <span className="stat-detail">Across All Sectors</span>
+              </div>
+
+              <div className="stat-box">
+                <h3 className="stat-number">98%</h3>
+                <p className="stat-label">Impact Recognition</p>
+                <span className="stat-detail">Continental Reach</span>
+              </div>
+            </div>
           </div>
 
-          <div className="about-cards">
-            <div className="about-card">
-              <div className="card-icon">
-                <FaTrophy />
+          <div className="about-right">
+            <div className="about-images">
+              <div className="image-card image-1">
+                <img 
+                  src="/images/first.png" 
+                  alt="African leaders meeting"
+                />
               </div>
-              <h3>Excellence</h3>
-              <p>Recognizing outstanding achievements across various fields</p>
+              <div className="image-card image-2">
+                <img 
+                  src="/images/sec.png" 
+                  alt="Team collaboration"
+                />
+              </div>
+              <div className="image-card image-3">
+                <img 
+                  src="/images/third.png" 
+                  alt="Leadership excellence"
+                />
+              </div>
             </div>
+          </div>
+        </div>
 
-            <div className="about-card">
-              <div className="card-icon">
-                <FaGlobeAfrica />
-              </div>
-              <h3>Pan-African</h3>
-              <p>Celebrating leaders from all 54 African nations</p>
+        <div className="about-values">
+          <div className="value-card">
+            <div className="value-icon">
+              <FaTrophy />
             </div>
+            <h3>Excellence</h3>
+            <p>Recognizing outstanding achievements across various fields</p>
+          </div>
 
-            <div className="about-card">
-              <div className="card-icon">
-                <FaHandshake />
-              </div>
-              <h3>Unity</h3>
-              <p>Building bridges across borders and sectors</p>
+          <div className="value-card">
+            <div className="value-icon">
+              <FaGlobeAfrica />
             </div>
+            <h3>Pan-African</h3>
+            <p>Celebrating leaders from all 54 African nations</p>
+          </div>
 
-            <div className="about-card">
-              <div className="card-icon">
-                <FaStar />
-              </div>
-              <h3>Legacy</h3>
-              <p>Inspiring future generations of African leaders</p>
+          <div className="value-card">
+            <div className="value-icon">
+              <FaHandshake />
             </div>
+            <h3>Unity</h3>
+            <p>Building bridges across borders and sectors</p>
+          </div>
+
+          <div className="value-card">
+            <div className="value-icon">
+              <FaStar />
+            </div>
+            <h3>Legacy</h3>
+            <p>Inspiring future generations of African leaders</p>
           </div>
         </div>
       </div>

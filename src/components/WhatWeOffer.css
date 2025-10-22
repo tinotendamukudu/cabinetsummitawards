@@ -24,15 +24,15 @@
 .offering-card::before {
   content: '';
   position: absolute;
-  top: -2px;
-  left: -2px;
-  right: -2px;
-  bottom: -2px;
-  background: linear-gradient(135deg, var(--primary-gold), var(--deep-gold));
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--dark-bg);
   border-radius: 20px;
   opacity: 0;
   transition: opacity 0.4s ease;
-  z-index: -1;
+  z-index: 0;
 }
 
 .offering-card:hover::before {
@@ -41,7 +41,20 @@
 
 .offering-card:hover {
   transform: translateY(-10px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.2);
+  border-color: var(--primary-gold);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
+}
+
+.offering-card:hover .offering-icon {
+  color: var(--primary-gold);
+}
+
+.offering-card:hover h3 {
+  color: var(--text-light);
+}
+
+.offering-card:hover p {
+  color: var(--text-gray);
 }
 
 .offering-icon {
@@ -49,6 +62,8 @@
   color: var(--primary-gold);
   margin-bottom: 1.5rem;
   transition: transform 0.4s ease;
+  position: relative;
+  z-index: 1;
 }
 
 .offering-card:hover .offering-icon {
@@ -60,12 +75,18 @@
   margin-bottom: 1rem;
   color: var(--text-dark);
   font-weight: 600;
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease;
 }
 
 .offering-card p {
   color: var(--text-muted);
   line-height: 1.7;
   font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  transition: color 0.4s ease;
 }
 
 @media (max-width: 768px) {

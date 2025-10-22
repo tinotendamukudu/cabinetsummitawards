@@ -37,8 +37,26 @@
 
 .category-card:hover {
   transform: translateY(-10px);
-  border-color: rgba(212, 175, 55, 0.6);
-  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.15);
+  background: var(--dark-bg);
+  border-color: var(--primary-gold);
+  box-shadow: 0 15px 40px rgba(212, 175, 55, 0.4);
+}
+
+.category-card:hover .category-icon {
+  color: var(--primary-gold);
+}
+
+.category-card:hover h3 {
+  color: var(--text-light);
+}
+
+.category-card:hover p {
+  color: var(--text-gray);
+}
+
+.category-card:hover .category-btn {
+  background: var(--primary-gold);
+  color: var(--dark-bg);
 }
 
 .category-number {
@@ -53,7 +71,7 @@
 }
 
 .category-card:hover .category-number {
-  color: rgba(212, 175, 55, 0.2);
+  color: rgba(212, 175, 55, 0.3);
   transform: scale(1.2);
 }
 
