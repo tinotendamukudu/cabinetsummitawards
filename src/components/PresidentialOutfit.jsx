@@ -1,9 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { FaCrown, FaTshirt, FaStar } from 'react-icons/fa'
 import './PresidentialOutfit.css'
 
 const PresidentialOutfit = () => {
-  const [showBooking, setShowBooking] = useState(false)
+  const navigate = useNavigate()
+
+  const handleBooking = () => {
+    navigate('/booking')
+  }
 
   return (
     <section id="presidential-outfit" className="presidential-outfit">
@@ -52,16 +57,10 @@ const PresidentialOutfit = () => {
 
             <button 
               className="btn btn-primary outfit-btn"
-              onClick={() => setShowBooking(!showBooking)}
+              onClick={handleBooking}
             >
               <FaTshirt /> Book Your Outfit
             </button>
-
-            {showBooking && (
-              <div className="booking-note">
-                <p>✨ Scroll down to the contact section to book your Presidential Outfit experience!</p>
-              </div>
-            )}
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
@@ -9,22 +10,32 @@ import PresidentialOutfit from './components/PresidentialOutfit'
 import CTA from './components/CTA'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
+import BookingPage from './pages/BookingPage'
 import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Hero />
-      <About />
-      <WhatWeOffer />
-      <AwardsCategories />
-      <PastWinners />
-      <PresidentialOutfit />
-      <CTA />
-      <FAQ />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <About />
+              <WhatWeOffer />
+              <AwardsCategories />
+              <PastWinners />
+              <PresidentialOutfit />
+              <CTA />
+              <FAQ />
+            </>
+          } />
+          <Route path="/booking" element={<BookingPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   )
 }
 
