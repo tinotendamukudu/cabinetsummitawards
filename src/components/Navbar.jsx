@@ -5,6 +5,7 @@ import './Navbar.css'
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
+  const [logoError, setLogoError] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,8 +30,19 @@ const Navbar = () => {
       <div className="container">
         <div className="nav-content">
           <div className="nav-logo" onClick={() => scrollToSection('hero')}>
-            <FaTrophy className="logo-icon" />
-            <span className="logo-text">HCSA</span>
+            {!logoError ? (
+              <img 
+                src="/images/hcsa-logo.svg" 
+                alt="HCSA Logo" 
+                className="logo-image"
+                onError={() => setLogoError(true)}
+              />
+            ) : (
+              <>
+                <FaTrophy className="logo-icon" />
+                <span className="logo-text">HCSA</span>
+              </>
+            )}
           </div>
 
           <ul className={`nav-menu ${isOpen ? 'active' : ''}`}>

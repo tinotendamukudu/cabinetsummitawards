@@ -1,0 +1,29 @@
+<svg width="160" height="80" viewBox="0 0 160 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#B8860B"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Text -->
+  <text x="5" y="38" font-family="Arial Black, Impact, sans-serif" font-size="36" font-weight="900" fill="#D4AF37" letter-spacing="4">
+    HCSA
+  </text>
+  
+  <!-- Full Name -->
+  <text x="5" y="52" font-family="Arial, sans-serif" font-size="7.5" font-weight="600" fill="#D4AF37" letter-spacing="1.8" opacity="0.85">
+    HONOURABLE CABINET
+  </text>
+  <text x="5" y="61" font-family="Arial, sans-serif" font-size="7.5" font-weight="600" fill="#D4AF37" letter-spacing="1.8" opacity="0.85">
+    SUMMIT AWARDS
+  </text>
+  
+  <!-- Decorative underline -->
+  <line x1="5" y1="66" x2="150" y2="66" stroke="#D4AF37" stroke-width="2.5" opacity="0.6"/>
+  
+  <!-- Accent dots -->
+  <circle cx="7" cy="70" r="1.5" fill="#FFD700"/>
+  <circle cx="148" cy="70" r="1.5" fill="#FFD700"/>
+</svg>

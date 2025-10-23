@@ -27,21 +27,6 @@ const CTA = () => {
             Nominate a deserving leader or register for our prestigious summit events
           </p>
 
-          <div className="cta-features">
-            <div className="cta-feature">
-              <div className="feature-icon">🏆</div>
-              <p>Recognize Excellence</p>
-            </div>
-            <div className="cta-feature">
-              <div className="feature-icon">🤝</div>
-              <p>Network with Leaders</p>
-            </div>
-            <div className="cta-feature">
-              <div className="feature-icon">🌍</div>
-              <p>Celebrate Africa</p>
-            </div>
-          </div>
-
           <div className="cta-buttons">
             <button className="btn btn-primary cta-btn" onClick={scrollToContact}>
               <FaAward /> Submit Nomination

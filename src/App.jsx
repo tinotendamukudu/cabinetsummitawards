@@ -7,7 +7,7 @@ import AwardsCategories from './components/AwardsCategories'
 import PastWinners from './components/PastWinners'
 import PresidentialOutfit from './components/PresidentialOutfit'
 import CTA from './components/CTA'
-import ContactUs from './components/ContactUs'
+import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -22,7 +22,7 @@ function App() {
       <PastWinners />
       <PresidentialOutfit />
       <CTA />
-      <ContactUs />
+      <FAQ />
       <Footer />
     </div>
   )

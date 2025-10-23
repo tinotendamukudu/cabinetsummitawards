@@ -34,6 +34,20 @@
   transform: scale(1.05);
 }
 
+.logo-image {
+  height: 65px;
+  width: auto;
+  max-width: 240px;
+  transition: all 0.3s ease;
+  display: block;
+  filter: brightness(1.1);
+}
+
+.logo-image:hover {
+  filter: brightness(1.3) drop-shadow(0 0 10px rgba(212, 175, 55, 0.6));
+  transform: scale(1.02);
+}
+
 .logo-icon {
   font-size: 2rem;
   color: var(--primary-gold);
@@ -61,6 +75,7 @@
   position: relative;
   font-weight: 500;
   transition: color 0.3s ease;
+  color: #ffffff;
 }
 
 .nav-menu li:not(:last-child):hover {

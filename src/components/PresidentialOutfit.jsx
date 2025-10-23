@@ -50,14 +50,6 @@ const PresidentialOutfit = () => {
               </div>
             </div>
 
-            <div className="outfit-description">
-              <p>
-                The Presidential Outfit is more than clothing—it's a statement of African excellence. 
-                Designed to symbolize leadership and cultural pride, this iconic outfit is available 
-                for honorees and distinguished guests at our summit events.
-              </p>
-            </div>
-
             <button 
               className="btn btn-primary outfit-btn"
               onClick={() => setShowBooking(!showBooking)}
