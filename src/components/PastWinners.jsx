@@ -5,36 +5,31 @@ import './PastWinners.css'
 const PastWinners = () => {
   const winners = [
     {
-      name: "Dr. Ngozi Okonjo-Iweala",
-      country: "Nigeria",
-      category: "Politics & Governance",
-      achievement: "First African and first woman to lead the WTO",
-      year: "2024",
-      image: "👩🏿‍💼"
-    },
-    {
-      name: "Elon Musk",
+      name: "Nelson Mandela",
       country: "South Africa",
-      category: "Business & Technology",
-      achievement: "Pioneering innovation in space exploration and sustainable energy",
-      year: "2024",
-      image: "👨🏼‍💼"
+      category: "Politics & Governance",
+      achievement: "First democratically elected president and anti-apartheid revolutionary",
+      year: "1994",
+      image: "https://upload.wikimedia.org/wikipedia/commons/0/02/Nelson_Mandela_1994.jpg",
+      isImageUrl: true
     },
     {
-      name: "Burna Boy",
-      country: "Nigeria",
+      name: "Seretse Khama",
+      country: "Botswana",
+      category: "Politics & Governance",
+      achievement: "First President of Botswana and founding father",
+      year: "1966",
+      image: "https://www.unisa.ac.za/static/corporate_web/Content/UHM/personalities/images/President%20Seretse%20Khama.jpg",
+      isImageUrl: true
+    },
+    {
+      name: "Oliver Mtukudzi",
+      country: "Zimbabwe",
       category: "Arts & Culture",
-      achievement: "Global African music ambassador and Grammy winner",
-      year: "2023",
-      image: "🎤"
-    },
-    {
-      name: "Prof. Catherine Ngila",
-      country: "Kenya",
-      category: "Science & Research",
-      achievement: "Groundbreaking work in nanotechnology and water purification",
-      year: "2023",
-      image: "👩🏿‍🔬"
+      achievement: "Legendary musician and cultural icon",
+      year: "2019",
+      image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcR0PZZBQRKxBAQob-naZxDnUWvP0_3IzR7-JMOFA8KS63ClaNAFyJbtRLHSdwUozxQtkj4KxUveJG9UUHFEBVZiWbDjX-OgpBxHphQCnP0",
+      isImageUrl: true
     }
   ]
 
@@ -56,7 +51,13 @@ const PastWinners = () => {
               <div className="winner-badge">
                 <FaTrophy />
               </div>
-              <div className="winner-image">{winner.image}</div>
+              <div className="winner-image">
+                {winner.isImageUrl ? (
+                  <img src={winner.image} alt={winner.name} />
+                ) : (
+                  winner.image
+                )}
+              </div>
               <div className="winner-info">
                 <h3>{winner.name}</h3>
                 <p className="winner-country">📍 {winner.country}</p>
@@ -68,11 +69,6 @@ const PastWinners = () => {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="winners-cta">
-          <p>Join the ranks of Africa's finest leaders</p>
-          <button className="btn btn-primary">View All Winners</button>
         </div>
       </div>
     </section>

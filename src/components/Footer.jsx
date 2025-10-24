@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaTrophy, FaHeart, FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa'
+import { FaTrophy, FaHeart, FaEnvelope, FaPhone, FaMapMarkerAlt, FaFacebookF, FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 import './Footer.css'
 
 const Footer = () => {
@@ -23,12 +23,6 @@ const Footer = () => {
               Celebrating African Excellence and Leadership across all 54 nations. 
               Honoring those who inspire and shape the future of our continent.
             </p>
-            <div className="footer-socials">
-              <a href="#" className="footer-social">📘</a>
-              <a href="#" className="footer-social">🐦</a>
-              <a href="#" className="footer-social">📷</a>
-              <a href="#" className="footer-social">💼</a>
-            </div>
           </div>
 
           <div className="footer-section">

@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFlag, FaUsers, FaTshirt, FaCrown, FaBook, FaHandHoldingHeart } from 'react-icons/fa'
+import { FaFlag, FaUsers, FaTshirt, FaCrown, FaBook, FaHandHoldingHeart, FaUtensils } from 'react-icons/fa'
 import './WhatWeOffer.css'
 
 const WhatWeOffer = () => {
@@ -15,9 +15,9 @@ const WhatWeOffer = () => {
       description: "Comprehensive profiles of distinguished African leaders showcasing their professions, contributions, and impact."
     },
     {
-      icon: <FaTshirt />,
-      title: "Presidential Outfit",
-      description: "Exclusive opportunity to wear the iconic Presidential Outfit, symbolizing African excellence and leadership."
+      icon: <FaUtensils />,
+      title: "Exclusive Gala Dinner",
+      description: "Special dinner featuring exquisite African cuisine for all high-profile guests."
     },
     {
       icon: <FaCrown />,
