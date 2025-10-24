@@ -16,8 +16,11 @@ const Footer = () => {
         <div className="footer-content">
           <div className="footer-section">
             <div className="footer-logo">
-              <FaTrophy className="footer-logo-icon" />
-              <span>HCSA</span>
+              <img 
+                src="/images/logo.png" 
+                alt="HCSA Logo" 
+                className="footer-logo-image"
+              />
             </div>
             <p className="footer-description">
               Celebrating African Excellence and Leadership across all 54 nations. 

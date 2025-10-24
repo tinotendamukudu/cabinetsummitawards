@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="nav-logo" onClick={() => scrollToSection('hero')}>
             {!logoError ? (
               <img 
-                src="/images/hcsa-logo.svg" 
+                src="/images/logo.png" 
                 alt="HCSA Logo" 
                 className="logo-image"
                 onError={() => setLogoError(true)}

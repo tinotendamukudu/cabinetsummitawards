@@ -20,8 +20,6 @@ const Hero = () => {
       <div className="container">
         <div className="hero-content">
           <div className="hero-badge">
-            <FaStar className="badge-icon" />
-            <span>Est. 2025</span>
           </div>
 
           <h1 className="hero-title">
@@ -51,24 +49,6 @@ const Hero = () => {
             >
               Learn More
             </button>
-          </div>
-
-          <div className="hero-stats">
-            <div className="stat">
-              <FaGlobe className="stat-icon" />
-              <h3>54</h3>
-              <p>African Nations</p>
-            </div>
-            <div className="stat">
-              <FaAward className="stat-icon" />
-              <h3>7</h3>
-              <p>Award Categories</p>
-            </div>
-            <div className="stat">
-              <FaStar className="stat-icon" />
-              <h3>100+</h3>
-              <p>Honorees</p>
-            </div>
           </div>
         </div>
       </div>
