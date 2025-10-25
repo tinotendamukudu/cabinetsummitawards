@@ -1,6 +1,77 @@
 .about {
   background: var(--light-bg);
   position: relative;
+  overflow: hidden;
+}
+
+/* Decorative Background Elements */
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    /* Stars */
+    radial-gradient(circle, var(--primary-gold) 2px, transparent 2px),
+    radial-gradient(circle, rgba(212, 175, 55, 0.4) 1px, transparent 1px),
+    /* Trophy shapes */
+    radial-gradient(ellipse 30px 40px, rgba(212, 175, 55, 0.08) 30%, transparent 40%),
+    /* Dots pattern */
+    radial-gradient(circle, rgba(212, 175, 55, 0.2) 3px, transparent 3px);
+  background-size: 
+    400px 400px,
+    300px 300px,
+    200px 200px,
+    100px 100px;
+  background-position: 
+    0 0,
+    50px 50px,
+    100px 100px,
+    25px 25px;
+  opacity: 0.4;
+  z-index: 0;
+  animation: float-pattern 60s linear infinite;
+}
+
+/* Decorative Shapes */
+.about::after {
+  content: '';
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 200px;
+  height: 200px;
+  background: 
+    linear-gradient(45deg, transparent 40%, rgba(212, 175, 55, 0.05) 40%, rgba(212, 175, 55, 0.05) 60%, transparent 60%),
+    linear-gradient(-45deg, transparent 40%, rgba(212, 175, 55, 0.05) 40%, rgba(212, 175, 55, 0.05) 60%, transparent 60%);
+  border-radius: 50%;
+  z-index: 0;
+  animation: rotate-shape 30s linear infinite;
+}
+
+@keyframes float-pattern {
+  0% {
+    background-position: 0 0, 50px 50px, 100px 100px, 25px 25px;
+  }
+  100% {
+    background-position: 400px 400px, 450px 450px, 500px 500px, 425px 425px;
+  }
+}
+
+@keyframes rotate-shape {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  position: relative;
+  z-index: 1;
 }
 
 .about-badge {
@@ -12,6 +83,8 @@
   font-weight: 600;
   font-size: 0.95rem;
   margin-bottom: 2rem;
+  position: relative;
+  z-index: 2;
 }
 
 .about-layout {

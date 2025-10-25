@@ -55,7 +55,6 @@ const Hero = () => {
             <span className="hero-subtitle-top">HONOURABLE CABINET</span>
             <span className="gradient-text">SUMMIT</span>
             <span className="gradient-text">AWARDS</span>
-            <span className="gradient-text-secondary">REDEFINED</span>
           </h1>
 
           <p className="hero-description">
