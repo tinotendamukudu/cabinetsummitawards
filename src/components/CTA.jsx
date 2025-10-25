@@ -31,19 +31,16 @@ const CTA = () => {
             <button className="btn btn-primary cta-btn" onClick={scrollToContact}>
               <FaAward /> Submit Nomination
             </button>
-            <button className="btn btn-secondary cta-btn" onClick={scrollToContact}>
-              <FaEnvelope /> Get in Touch
-            </button>
           </div>
 
           <div className="cta-contact-info">
             <div className="cta-contact-item">
               <FaEnvelope />
-              <span>info@hcsa-awards.org</span>
+              <span>info@cabinetsummitawards.com</span>
             </div>
             <div className="cta-contact-item">
               <FaPhone />
-              <span>+1 (555) 123-4567</span>
+              <span>+263 71 321 9733</span>
             </div>
           </div>
         </div>

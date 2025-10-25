@@ -63,8 +63,8 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4>Email</h4>
-                  <p>info@hcsa-awards.org</p>
-                  <p>nominations@hcsa-awards.org</p>
+                  <p>info@cabinetsummitawards.com</p>
+                  <p>nominations@cabinetsummitawards.com</p>
                 </div>
               </div>
 
@@ -74,8 +74,8 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4>Phone</h4>
-                  <p>+1 (555) 123-4567</p>
-                  <p>Mon - Fri: 9AM - 6PM (EST)</p>
+                  <p>+263 71 321 9733</p>
+                  <p>Mon - Fri: 9AM - 6PM (CAT)</p>
                 </div>
               </div>
 
@@ -149,7 +149,7 @@ const ContactUs = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (555) 000-0000"
+                      placeholder="+263 71 321 9733"
                     />
                   </div>
                 </div>

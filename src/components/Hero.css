@@ -162,15 +162,15 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #9ACD32, #7CB342);
+  background: linear-gradient(135deg, var(--primary-gold), var(--deep-gold));
   color: #000;
-  box-shadow: 0 5px 20px rgba(154, 205, 50, 0.4);
+  box-shadow: 0 5px 20px rgba(212, 175, 55, 0.4);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 30px rgba(154, 205, 50, 0.6);
-  background: linear-gradient(135deg, #B2E03E, #9ACD32);
+  box-shadow: 0 8px 30px rgba(212, 175, 55, 0.6);
+  background: linear-gradient(135deg, #FFD700, var(--primary-gold));
 }
 
 .btn-link {

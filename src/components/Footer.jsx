@@ -61,11 +61,11 @@ const Footer = () => {
               </div>
               <div className="footer-contact-item">
                 <FaEnvelope />
-                <span>info@hcsa-awards.org</span>
+                <span>info@cabinetsummitawards.com</span>
               </div>
               <div className="footer-contact-item">
                 <FaPhone />
-                <span>+1 (555) 123-4567</span>
+                <span>+263 71 321 9733</span>
               </div>
             </div>
           </div>

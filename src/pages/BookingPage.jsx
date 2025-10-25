@@ -28,7 +28,7 @@ const BookingPage = () => {
             <h4>Need Help?</h4>
             <p>If you have any questions or need assistance with your booking, please contact our support team:</p>
             <div className="contact-details">
-              <p><i className="fas fa-envelope"></i> <a href="mailto:info@hcsa.co.zw">info@hcsa.co.zw</a></p>
+              <p><i className="fas fa-envelope"></i> <a href="mailto:info@cabinetsummitawards.com">info@cabinetsummitawards.com</a></p>
               <p><i className="fas fa-phone"></i> <a href="tel:+263713219733">+263 71 321 9733</a></p>
             </div>
           </div>
