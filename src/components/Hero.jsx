@@ -5,10 +5,10 @@ import './Hero.css'
 const Hero = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const backgroundImages = [
-    '/images/first.png',
+    '/images/new-01.png',
     '/images/sec.png',
-    '/images/third.png',
-    '/images/4th.png'
+    '/images/new-04.png',
+    '/images/new-05.png'
   ]
 
   useEffect(() => {
@@ -77,17 +77,17 @@ const Hero = () => {
           <div className="hero-images-wrapper">
             {/* Main Large Arch Image */}
             <div className="hero-main-arch">
-              <img src="/images/first.png" alt="Awards Ceremony" />
+              <img src="/images/new-01.png" alt="Awards Ceremony" />
             </div>
             
             {/* Top Circle Image */}
             <div className="hero-circle top-circle">
-              <img src="/images/sec.png" alt="Excellence Recognition" />
+              <img src="/images/new-02.png" alt="Excellence Recognition" />
             </div>
             
             {/* Bottom Left Circle Image */}
             <div className="hero-circle bottom-circle">
-              <img src="/images/third.png" alt="Leadership Award" />
+              <img src="/images/new-04.png" alt="Leadership Award" />
             </div>
           </div>
         </div>

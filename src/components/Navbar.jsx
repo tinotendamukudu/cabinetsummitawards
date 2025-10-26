@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { FaBars, FaTimes, FaTrophy } from 'react-icons/fa'
 import './Navbar.css'
 
@@ -6,6 +7,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [scrolled, setScrolled] = useState(false)
   const [logoError, setLogoError] = useState(false)
+  const navigate = useNavigate()
 
   useEffect(() => {
     const handleScroll = () => {
@@ -50,11 +52,10 @@ const Navbar = () => {
             <li onClick={() => scrollToSection('about')}>About Us</li>
             <li onClick={() => scrollToSection('what-we-offer')}>What We Offer</li>
             <li onClick={() => scrollToSection('awards')}>Awards</li>
-            <li onClick={() => scrollToSection('contact')}>Contact</li>
             <li>
               <button 
                 className="nav-btn"
-                onClick={() => scrollToSection('contact')}
+                onClick={() => navigate('/booking')}
               >
                 Book Now
               </button>
