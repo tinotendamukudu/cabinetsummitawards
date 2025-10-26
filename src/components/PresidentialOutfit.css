@@ -5,12 +5,31 @@
 .outfit-content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 4rem;
+  gap: 5rem;
   align-items: center;
 }
 
 .outfit-image {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outfit-image img {
+  width: 85%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+  border: 4px solid var(--primary-gold);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.outfit-image img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 25px 70px rgba(212, 175, 55, 0.3);
 }
 
 .image-placeholder {
@@ -155,10 +174,30 @@
 @media (max-width: 968px) {
   .outfit-content {
     grid-template-columns: 1fr;
-    gap: 3rem;
+    gap: 4rem;
+  }
+
+  .outfit-image img {
+    width: 90%;
+    max-width: 400px;
   }
 
   .outfit-info h2 {
     font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .outfit-content {
+    gap: 3rem;
+  }
+
+  .outfit-image img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .outfit-info h2 {
+    font-size: 2rem;
   }
 }

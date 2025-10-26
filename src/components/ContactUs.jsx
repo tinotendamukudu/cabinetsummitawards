@@ -85,8 +85,8 @@ const ContactUs = () => {
                 </div>
                 <div>
                   <h4>Address</h4>
-                  <p>123 Excellence Boulevard</p>
-                  <p>Pan-African Plaza, Suite 500</p>
+                  <p>Corner First and Nelson Mandela</p>
+                  <p>Michael House 9th Floor</p>
                 </div>
               </div>
             </div>

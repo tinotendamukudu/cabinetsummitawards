@@ -15,11 +15,7 @@ const PresidentialOutfit = () => {
       <div className="container">
         <div className="outfit-content">
           <div className="outfit-image">
-            <div className="image-placeholder">
-              <FaCrown className="crown-icon" />
-              <div className="outfit-icon">👔</div>
-              <p>Presidential Outfit</p>
-            </div>
+            <img src="/images/b-2.png" alt="Presidential Outfit" />
           </div>
 
           <div className="outfit-info">

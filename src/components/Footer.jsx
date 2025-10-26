@@ -57,7 +57,7 @@ const Footer = () => {
             <div className="footer-contact">
               <div className="footer-contact-item">
                 <FaMapMarkerAlt />
-                <span>123 Excellence Boulevard<br />Pan-African Plaza, Suite 500</span>
+                <span>Corner First and Nelson Mandela<br />Michael House 9th Floor</span>
               </div>
               <div className="footer-contact-item">
                 <FaEnvelope />

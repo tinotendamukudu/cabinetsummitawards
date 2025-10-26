@@ -580,45 +580,13 @@
     opacity: 0.5;
   }
 
+  /* Hide images on mobile */
+  .about-right {
+    display: none;
+  }
+
   .about-images {
-    height: 400px;
-    max-width: 100%;
-  }
-
-  .image-1 {
-    width: 180px;
-    height: 130px;
-    top: 0;
-    left: 10px;
-  }
-
-  .image-2 {
-    width: 200px;
-    height: 150px;
-    top: 15px;
-    right: 10px;
-  }
-
-  .image-3 {
-    width: 190px;
-    height: 160px;
-    top: 200px;
-    left: 40px;
-  }
-
-  .experience-badge {
-    width: 120px;
-    height: 120px;
-    top: 55%;
-    right: 5px;
-  }
-
-  .experience-number {
-    font-size: 1.8rem;
-  }
-
-  .experience-text {
-    font-size: 0.8rem;
+    display: none;
   }
 
   .about-values {
@@ -688,44 +656,13 @@
     height: 80px;
   }
 
+  /* Hide images on small mobile screens */
+  .about-right {
+    display: none;
+  }
+
   .about-images {
-    height: 350px;
-  }
-
-  .image-1 {
-    width: 150px;
-    height: 110px;
-    top: 0;
-    left: 5px;
-  }
-
-  .image-2 {
-    width: 170px;
-    height: 130px;
-    top: 10px;
-    right: 5px;
-  }
-
-  .image-3 {
-    width: 160px;
-    height: 140px;
-    top: 180px;
-    left: 30px;
-  }
-
-  .experience-badge {
-    width: 100px;
-    height: 100px;
-    top: 55%;
-    right: 0;
-  }
-
-  .experience-number {
-    font-size: 1.5rem;
-  }
-
-  .experience-text {
-    font-size: 0.7rem;
+    display: none;
   }
 
   .value-card {
