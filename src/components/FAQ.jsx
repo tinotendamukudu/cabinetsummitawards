@@ -8,15 +8,15 @@ const FAQ = () => {
   const faqData = [
     {
       question: "What is the Honourable Cabinet Summit Awards?",
-      answer: "The HCSA is a prestigious recognition platform celebrating outstanding leadership and innovation across African government sectors. We honor cabinet members, ministers, and senior government officials who have demonstrated exceptional service, transformative policies, and positive impact on their nations and the continent."
+      answer: "The HCSA is a prestigious recognition platform celebrating outstanding leadership and innovation across African business sectors. We honor individuals who have demonstrated exceptional service, transformative policies, and positive impact on their nations and the continent."
     },
     {
       question: "Who can nominate candidates for the awards?",
-      answer: "Nominations are open to government institutions, civil society organizations, professional associations, and citizens. Self-nominations are also accepted. All nominees must be current or former cabinet members, ministers, or senior government officials from African nations who have made significant contributions to their respective sectors."
+      answer: "Nominations are open to individuals. Self-nominations are also accepted. All nominees must be from everyone who have made significant contributions to their respective sectors."
     },
     {
       question: "What are the award categories?",
-      answer: "Our categories include Excellence in Economic Development, Innovation in Healthcare, Education Transformation, Infrastructure Development, Environmental Sustainability, Digital Innovation, Youth Empowerment, Women's Advancement, and Lifetime Achievement Award, among others. Each category recognizes specific areas of governmental excellence."
+      answer: "Our categories include Excellence in Economic Development, Innovation in Healthcare, Education Transformation, Infrastructure Development, Environmental Sustainability, Digital Innovation, Youth Empowerment, Women's Advancement, and Lifetime Achievement Award, among others. Each category recognizes specific areas of excellence."
     },
     {
       question: "How are winners selected?",

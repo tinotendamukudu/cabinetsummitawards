@@ -11,6 +11,7 @@ import CTA from './components/CTA'
 import FAQ from './components/FAQ'
 import Footer from './components/Footer'
 import BookingPage from './pages/BookingPage'
+
 import './App.css'
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
               <FAQ />
             </>
           } />
-          <Route path="/booking" element={<BookingPage />} />
+          {/* <Route path="/booking" element={<BookingPage />} /> */}
+          <Route path="/table-booking" element={<BookingPage />} />
         </Routes>
         <Footer />
       </div>

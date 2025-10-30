@@ -1,5 +1,5 @@
 import React from 'react';
-import BookingWizard from '../components/BookingWizard';
+import TableBookingWizard from '../components/TableBookingWizard';
 import { FaHome, FaChevronRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import './BookingPage.css';
@@ -19,7 +19,7 @@ const BookingPage = () => {
       </div>
 
       {/* Booking Wizard */}
-      <BookingWizard />
+      <TableBookingWizard />
 
       {/* Help Section */}
       <div className="booking-help-section">

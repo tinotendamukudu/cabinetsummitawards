@@ -7,7 +7,7 @@ const PresidentialOutfit = () => {
   const navigate = useNavigate()
 
   const handleBooking = () => {
-    navigate('/booking')
+    navigate('/table-booking')
   }
 
   return (
