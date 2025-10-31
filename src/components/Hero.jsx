@@ -59,8 +59,8 @@ const Hero = () => {
 
           <p className="hero-description">
             Recognizing and celebrating outstanding achievements and contributions by 
-            African leaders in politics, business, arts, sports, and innovation. 
-            Every award is a masterpiece of excellence, honoring those who shape our continent's future.
+            Zimbabwean leaders in politics, business, arts, sports, and innovation. 
+            Every award is a masterpiece of excellence, honoring those who shape our country's future.
           </p>
 
           <div className="hero-buttons">

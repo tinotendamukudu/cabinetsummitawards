@@ -52,10 +52,10 @@ const PresidentialOutfit = () => {
             </div>
 
             <button 
-              className="btn btn-primary outfit-btn"
+              className="btn btn-primary text-white outfit-btn"
               onClick={handleBooking}
             >
-              <FaTshirt /> Book Your Outfit
+              <FaTshirt /> Book Your Presidential Outfit
             </button>
           </div>
         </div>

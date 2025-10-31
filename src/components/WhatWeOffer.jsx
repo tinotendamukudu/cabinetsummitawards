@@ -12,12 +12,12 @@ const WhatWeOffer = () => {
     {
       icon: <FaUsers />,
       title: "Leadership Profiles",
-      description: "Comprehensive profiles of distinguished African leaders showcasing their professions, contributions, and impact."
+      description: "Comprehensive profiles of distinguished Zimbabwean leaders showcasing their professions, contributions, and impact."
     },
     {
       icon: <FaUtensils />,
       title: "Exclusive Gala Dinner",
-      description: "Special dinner featuring exquisite African cuisine for all high-profile guests."
+      description: "Special dinner featuring exquisite Zimbabwean cuisine for all high-profile guests."
     },
     {
       icon: <FaCrown />,
@@ -27,12 +27,12 @@ const WhatWeOffer = () => {
     {
       icon: <FaBook />,
       title: "Documentation",
-      description: "Permanent recognition in our Hall of Fame, documenting the legacy of African excellence for future generations."
+      description: "Permanent recognition in our Hall of Fame, documenting the legacy of Zimbabwean excellence for future generations."
     },
     {
       icon: <FaHandHoldingHeart />,
       title: "Nomination Process",
-      description: "Simple and transparent nomination process to recognize deserving African leaders and high-profile individuals."
+      description: "Simple and transparent nomination process to recognize deserving Zimbabwean leaders and high-profile individuals."
     }
   ]
 

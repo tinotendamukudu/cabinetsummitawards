@@ -1,25 +1,31 @@
-import React from 'react'
-import { FaTrophy, FaGlobeAfrica, FaHandshake, FaStar } from 'react-icons/fa'
-import './About.css'
+import React from "react";
+import { FaTrophy, FaGlobeAfrica, FaHandshake, FaStar } from "react-icons/fa";
+import "./About.css";
 
 const About = () => {
   return (
     <section id="about" className="about">
       <div className="container">
         <div className="about-badge">Get To Know About Us</div>
-        
+
         <div className="about-layout">
           <div className="about-left">
             <h2 className="about-title">
               We Are Here to Celebrate African Excellence
             </h2>
-            
-            <p className="about-description">
-              The Honourable Cabinet Summit Awards recognizes outstanding achievements and 
-              contributions by African high profiles across politics, business, arts, sports, 
-              and innovation, inspiring the next generation of leaders.
-            </p>
 
+            <p className="about-description">
+              The Honourable Cabinet Summit Awards celebrate exceptional
+              accomplishments by high-profile individuals and organizations in
+              Zimbabwe across diverse fields such as law, education, business
+              excellence, mining and innovation. This prestigious recognition
+              is reserved for only fifty distinguished personalities who have
+              been carefully selected through a rigorous evaluation process
+              drawn from those who have consistently demonstrated excellence
+              throughout the year, as well as first-time recipients who have
+              proven themselves.
+            </p>
+    
             <div className="about-stats-grid">
               <div className="stat-box">
                 <h3 className="stat-number">50+</h3>
@@ -38,22 +44,13 @@ const About = () => {
           <div className="about-right">
             <div className="about-images">
               <div className="image-card image-1">
-                <img 
-                  src="/images/first.png" 
-                  alt="African leaders meeting"
-                />
+                <img src="/images/first.png" alt="African leaders meeting" />
               </div>
               <div className="image-card image-2">
-                <img 
-                  src="/images/sec.png" 
-                  alt="Team collaboration"
-                />
+                <img src="/images/sec.png" alt="Team collaboration" />
               </div>
               <div className="image-card image-3">
-                <img 
-                  src="/images/third.png" 
-                  alt="Leadership excellence"
-                />
+                <img src="/images/third.png" alt="Leadership excellence" />
               </div>
             </div>
           </div>
@@ -94,7 +91,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
+export default About;

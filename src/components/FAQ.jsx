@@ -8,7 +8,7 @@ const FAQ = () => {
   const faqData = [
     {
       question: "What is the Honourable Cabinet Summit Awards?",
-      answer: "The HCSA is a prestigious recognition platform celebrating outstanding leadership and innovation across African business sectors. We honor individuals who have demonstrated exceptional service, transformative policies, and positive impact on their nations and the continent."
+      answer: "The HCSA is a prestigious recognition platform celebrating outstanding leadership and innovation across Zimbabwean business sectors. We honor individuals who have demonstrated exceptional service, transformative policies, and positive impact on their nation."
     },
     {
       question: "Who can nominate candidates for the awards?",
@@ -24,7 +24,7 @@ const FAQ = () => {
     },
     {
       question: "When and where is the awards ceremony held?",
-      answer: "The annual HCSA ceremony is held in a different African capital each year, rotating across regions to ensure continental representation. The event typically takes place in the fourth quarter of the year and includes a two-day summit featuring policy discussions, networking sessions, and the awards gala."
+      answer: "The annual HCSA ceremony is held in a different Zimbabwean city each year, rotating across regions to ensure national representation. The event typically takes place in the fourth quarter of the year and includes a two-day summit featuring policy discussions, networking sessions, and the awards gala."
     }
   ]
 

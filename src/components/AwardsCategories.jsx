@@ -7,7 +7,7 @@ const AwardsCategories = () => {
     {
       icon: <FaBalanceScale />,
       title: "Politics and Governance",
-      description: "Honoring visionary leaders who have transformed governance and public policy across Africa"
+      description: "Honoring visionary leaders who have transformed governance and public policy across Zimbabwe"
     },
     {
       icon: <FaBriefcase />,
@@ -17,17 +17,17 @@ const AwardsCategories = () => {
     {
       icon: <FaPalette />,
       title: "Arts and Culture",
-      description: "Recognizing artists, musicians, and cultural ambassadors promoting African heritage"
+      description: "Recognizing artists, musicians, and cultural ambassadors promoting Zimbabwean heritage"
     },
     {
       icon: <FaRunning />,
       title: "Sports and Fitness",
-      description: "Applauding athletes and sports figures who have brought glory to the continent"
+      description: "Applauding athletes and sports figures who have brought glory to the nation"
     },
     {
       icon: <FaFlask />,
       title: "Science and Technology",
-      description: "Honoring innovators and researchers advancing technological progress in Africa"
+      description: "Honoring innovators and researchers advancing technological progress in Zimbabwe"
     },
     {
       icon: <FaGraduationCap />,
